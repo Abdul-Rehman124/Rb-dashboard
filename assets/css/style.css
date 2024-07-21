@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --blue: #65b5ff;
+    --silver: #939aa3;
+    --purple: #af52de;
+    --bg-color: #f6f6f6;
+    --grey: #3f4548;
+}
+
+body {
+    position: relative;
+    font-family: Roboto;
+}
+
+a {text-decoration: none;}
+ul {padding-left: 0;list-style: none;}
+
+.top-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    padding: 15px 0;
+    z-index: 2;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-item {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border-right: 2px solid var(--bg-color);
+    gap: 10px;
+}
+
+.header-item p {
+    color: var(--silver);
+    font-size: 17px;
+}
+
+.header-item a.chat-link {
+    font-size: 19px;
+    color: var(--blue);
+}
+
+.header-item .dropdown-toggle,
+.header-item a.btn {
+    padding: 0 5px;
+    font-size: 20px;
+}
+
+.header-item .dropdown-toggle {color: var(--blue);}
+
+.header-item a.btn {color: var(--silver);}
+
+.search-box {position: relative;}
+
+.search-box input {
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.search-box i {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 20px;
+    color: grey;
+}
+
+a.upgrade-button {
+    background: var(--purple);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.three-dots {
+    opacity: 0;
+    display: none;
+}
+
+.sidebar {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 80px;
+    height: 95vh;
+    overflow: hidden;
+    background: white;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+}
+.main-section{
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    height: 100%;
+    padding: 0 20px ;
+}
+.sidebar.active .main-section{
+    height: 90%;
+    
+}
+.add-section{
+    position: absolute;
+    bottom:  0;
+    height: 80px;
+    width: 100%;
+    background: white;
+    z-index: 2;
+    border-top: 1px;
+    padding: 0 20px !important;
+}
+.main-section::-webkit-scrollbar {
+    width: 2px;
+}
+
+.main-section::-webkit-scrollbar-thumb {
+    background-color: var(--silver); 
+    border-radius: 10px; 
+}
+
+.main-section::-webkit-scrollbar-thumb:hover {
+    background-color: #555; 
+}
+
+.main-section::-webkit-scrollbar-track {
+    background-color: #f1f1f1; 
+}
+.sidebar.active {
+    transition: all 0.4s ease-in-out;
+    width: 230px;
+}
+
+.chevron-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+    font-size: 17px !important;
+
+}
+
+.icon-1 {
+    position: relative;
+    transition: all 0.6s;
+}
+
+.sidebar.active .icon-1 {right: -165px;}
+
+.sidebar .icon {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar .icon i {
+    font-size: 22px;
+    color: white;
+}
+
+.sidebar ul li > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 7px;
+}
+
+.sidebar.active ul li>a {justify-content: flex-start !important;}
+.sidebar span {color: var(--grey);}
+.sidebar .first-item i , .sidebar .second-item i {color: var(--grey) !important;}
+i.fa-solid.fa-user-group {padding: 0;}
+.sidebar .item {padding: 10px 0;border-bottom: 1px solid #d9d9d9;}
+.third-item .icon {background: #0082fb;}
+.third-item .icon i { font-size: 17px !important;}
+.fourth-item .icon {background: rgb(255, 95, 133);}
+.fifth-item .icon {background: #f7b731;}
+.add-section .icon{
+    border-radius: 50%;
+    background: transparent;
+}
+.add-section i{
+    color: var(--blue) !important;
+}
