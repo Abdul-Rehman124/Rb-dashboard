@@ -80,6 +80,11 @@ a.upgrade-button {
 .three-dots {
     opacity: 0;
     display: none;
+    position: absolute ;
+    right: 0;
+    transform: rotate(90deg);
+    font-size: 22px;
+    color: black;
 }
 
 .sidebar {
@@ -173,6 +178,10 @@ a.upgrade-button {
     justify-content: center;
     margin-top: 10px;
     gap: 7px;
+    position: relative;
+    padding: 5px ;
+    border-radius: 5px;
+    transition: all 0.3s;
 }
 
 .sidebar.active ul li>a {justify-content: flex-start !important;}
@@ -190,4 +199,12 @@ i.fa-solid.fa-user-group {padding: 0;}
 }
 .add-section i{
     color: var(--blue) !important;
+}
+.sidebar.active ul li a:hover{
+    background: rgba(0, 0, 0, 0.137);
+}
+.sidebar.active ul li a:hover .three-dots{
+    display: block;
+    opacity: 1;
+    
 }
