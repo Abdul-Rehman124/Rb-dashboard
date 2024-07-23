@@ -78,14 +78,12 @@
                 <li><a href="javascript:;">
                         <div class="icon icon-1 chevron"><i class="chevron-icon fa-solid fa-chevron-right "></i></div>
                     </a> </li>
-                <li><a href="">
+                <li><a href="index.php">
                         <div class="icon"><i class="fa-solid fa-table-cells-large"></i></div> <span
                             class="d-none">Overview</span>
-                        <div class="three-dots">...</div>
                     </a> </li>
-                <li><a href="">
+                <li><a href="activity.php">
                         <div class="icon"><i class="fa-solid fa-bars"></i></div> <span class="d-none">Activity</span>
-                        <div class="three-dots">...</div>
                     </a> </li>
             </ul>
         </div>
@@ -93,12 +91,10 @@
             <ul>
                 <li><a href="">
                         <div class="icon"><i class="fa-solid fa-user"></i></div> <span class="d-none">Users</span>
-                        <div class="three-dots">...</div>
                     </a> </li>
                 <li><a href="">
                         <div class="icon"><i class="fa-solid fa-user-group"></i></div> <span class="d-none">Smart
                             Groups</span>
-                        <div class="three-dots">...</div>
                     </a> </li>
             </ul>
         </div>
@@ -109,21 +105,21 @@
                         <div class="icon"><i class="fa-regular fa-comments"></i></div> <span class="d-none">Chat</span>
                         <div class="three-dots">...</div>
                     </a> </li>
-                <li><a href="">
+                <li><a href="update.php">
                         <div class="icon"><i class="fa-solid fa-envelope"></i></div> <span class="d-none">Updates</span>
                         <div class="three-dots">...</div>
                     </a> </li>
-                <li><a href="">
+                <li><a href="Directory.php">
                         <div class="icon"><i class="fa-solid fa-address-book"></i></div> <span
                             class="d-none">Directory</span>
                         <div class="three-dots">...</div>
                     </a> </li>
-                <li><a href="">
+                <li><a href="Events.php">
                         <div class="icon"><i class="fa-solid fa-calendar-days"></i></div> <span
                             class="d-none">Events</span>
                         <div class="three-dots">...</div>
                     </a> </li>
-                <li><a href="">
+                <li><a href="Knowlege-Base.php">
                         <div class="icon"><i class="fa-solid fa-book"></i></div> <span class="d-none">Knowladge
                             Base</span>
                         <div class="three-dots">...</div>
@@ -138,7 +134,7 @@
                             Clock</span>
                         <div class="three-dots">...</div>
                     </a> </li>
-                <li><a href="">
+                <li><a href="Forms.php">
                         <div class="icon"><i class="fa-solid fa-file-waveform"></i></div> <span
                             class="d-none">Forms</span>
                         <div class="three-dots">...</div>
@@ -148,7 +144,7 @@
                             Scheduling</span>
                         <div class="three-dots">...</div>
                     </a> </li>
-                <li><a href="">
+                <li><a href="quicktask">
                         <div class="icon"><i class="fa-solid fa-clipboard-check"></i></div> <span class="d-none">Quick
                             Tasks</span>
                         <div class="three-dots">...</div>
@@ -159,23 +155,30 @@
             <h6 class="d-none">HR & Skills</h6>
             <ul>
                 <li><a href="">
-                        <div class="icon"><i class="fa-solid fa-stopwatch"></i></div> <span class="d-none">Time
-                            Clock</span>
+                        <div class="icon"><i class="fa-solid fa-stopwatch"></i></div> <span class="d-none">
+                        Courses</span>
                         <div class="three-dots">...</div>
                     </a> </li>
                 <li><a href="">
                         <div class="icon"><i class="fa-solid fa-file-waveform"></i></div> <span
-                            class="d-none">Forms</span>
+                            class="d-none">Rewards</span>
                         <div class="three-dots">...</div>
                     </a> </li>
                 <li><a href="">
-                        <div class="icon"><i class="fa-solid fa-calendar-days"></i></i></div> <span class="d-none">Jobs
-                            Scheduling</span>
+                        <div class="icon"><i class="fa-solid fa-calendar-days"></i></i></div> <span class="d-none">
+                        Documents</span>
                         <div class="three-dots">...</div>
                     </a> </li>
                 <li><a href="">
-                        <div class="icon"><i class="fa-solid fa-clipboard-check"></i></div> <span class="d-none">Quick
-                            Tasks</span>
+                        <div class="icon"><i class="fa-solid fa-clipboard-check"></i></div> <span class="d-none">Recognitions</span>
+                        <div class="three-dots">...</div>
+                    </a> </li>
+                    <li><a href="">
+                        <div class="icon"><i class="fa-solid fa-clipboard-check"></i></div> <span class="d-none">Celebrations</span>
+                        <div class="three-dots">...</div>
+                    </a> </li>
+                    <li><a href="">
+                        <div class="icon"><i class="fa-solid fa-clipboard-check"></i></div> <span class="d-none">Time Off</span>
                         <div class="three-dots">...</div>
                     </a> </li>
             </ul>
