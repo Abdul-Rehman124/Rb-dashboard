@@ -8,10 +8,13 @@
                     <div class="row justify-content-center">
                         <div class="col-xl-5">
                             <div class="video-sec">
-                                <video width="640" height="360" controls>
-                                    <source src="video.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
+                                <div class="video-men">
+                                    <video width="640" height="360" controls>
+                                        <source src="video.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                
                                 <h3 class="num">Get started with Knowledge Base.</h3>
                                 <p class="para">Easily connect your employees with information that’s only a click away, by creating custom libraries for policies, SOP, catalogs, guides, or anything else your team needs in order to excel at work.</p>
                                 <div class="anch">

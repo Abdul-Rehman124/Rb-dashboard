@@ -139,12 +139,12 @@
                             class="d-none">Forms</span>
                         <div class="three-dots">...</div>
                     </a> </li>
-                <li><a href="">
+                <li><a href="Job scheduling.php">
                         <div class="icon"><i class="fa-solid fa-calendar-days"></i></i></div> <span class="d-none">Jobs
                             Scheduling</span>
                         <div class="three-dots">...</div>
                     </a> </li>
-                <li><a href="quicktask">
+                <li><a href="quicktask.php">
                         <div class="icon"><i class="fa-solid fa-clipboard-check"></i></div> <span class="d-none">Quick
                             Tasks</span>
                         <div class="three-dots">...</div>
@@ -159,25 +159,25 @@
                         Courses</span>
                         <div class="three-dots">...</div>
                     </a> </li>
-                <li><a href="">
+                <li><a href="Rewards.php">
                         <div class="icon"><i class="fa-solid fa-file-waveform"></i></div> <span
                             class="d-none">Rewards</span>
                         <div class="three-dots">...</div>
                     </a> </li>
-                <li><a href="">
+                <li><a href="Document.php">
                         <div class="icon"><i class="fa-solid fa-calendar-days"></i></i></div> <span class="d-none">
                         Documents</span>
                         <div class="three-dots">...</div>
                     </a> </li>
-                <li><a href="">
+                <li><a href="Recognization.php">
                         <div class="icon"><i class="fa-solid fa-clipboard-check"></i></div> <span class="d-none">Recognitions</span>
                         <div class="three-dots">...</div>
                     </a> </li>
-                    <li><a href="">
+                    <li><a href="Celebration.php">
                         <div class="icon"><i class="fa-solid fa-clipboard-check"></i></div> <span class="d-none">Celebrations</span>
                         <div class="three-dots">...</div>
                     </a> </li>
-                    <li><a href="">
+                    <li><a href="Time-of.php">
                         <div class="icon"><i class="fa-solid fa-clipboard-check"></i></div> <span class="d-none">Time Off</span>
                         <div class="three-dots">...</div>
                     </a> </li>

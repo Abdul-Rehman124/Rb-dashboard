@@ -10,16 +10,14 @@
                     <div class="row justify-content-center">
                         <div class="col-xl-5">
                             <div class="video-sec">
-                                <div class="video-men">
-                                    <video  controls>
+                                <div class="vide">
+                                    <video controls>
                                         <source src="video.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
-                                
-                                <h3 class="num">Get Started with Events</h3>
-                                <p class="para">Create a beautiful agenda of all company events, make it simple for users to access 
-                                    event's details and mark their attendance, and bring people together effortlessly</p>
+                                <h3 class="num">Get started with Celebrations</h3>
+                                <p class="para">Set your employees' birthdays and work anniversaries on auto-pilot, never miss a special date, and make it easy for team members to celebrate together</p>
                                 <div class="anch">
                                     <a href="">Get Started</a>
                                 </div>
@@ -32,33 +30,36 @@
                                 <div class="col-xl-4">
                                     <div class="color-main">
                                         <div class="color-img">
-                                        <img src="assets/images/detailed-events.svg" alt="">
+                                        <img src="assets/images/centralized-view.Webp" alt="">
                                         </div>
                                         <div class="con-col">
-                                        <span>Detailed events</span>
-                                        <p>Add a detailed description to any event, including location, media and a gorgeous event cove </p>
+                                        <span>Centralized view</span>
+                                        <p>View all employees' birthdays and work anniversaries in one place
+                                        </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-xl-4">
                                     <div class="color-main">
                                         <div class="color-img">
-                                        <img src="assets/images/attendance-tracking.svg" alt="">
+                                        <img src="assets/images/make-them-smile.webp" alt="">
                                         </div>
                                         <div class="con-col">
-                                        <span>Attendance tracking</span>
-                                        <p>Allow users to register to an event and view who's attending from their colleagues </p>
+                                        <span>Make them smile
+                                        </span>
+                                        <p>The celebration will show on the employee's feed, with or without a personal message to your choice
+                                        </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-xl-4">
                                     <div class="color-main">
                                         <div class="color-img">
-                                        <img src="assets/images/activation-page-third-card.svg" alt="">
+                                        <img src="assets/images/celebrate-together.Webp" alt="">
                                         </div>
                                         <div class="con-col">
-                                        <span>Keep all files in one place</span>
-                                        <p>Fully customize your event's preferences with advanced options to suit any need </p>
+                                        <span>Hyper customizable</span>
+                                        <p>Customize everything about your update so it suits every purpose, announcement or occasion</p>
                                         </div>
                                     </div>
                                 </div>
@@ -66,62 +67,57 @@
                         </div>
                     </div>
                     <div class="row justify-content-center">
-                        <div class="col-xl-6">
+                        <div class="col-xl-5">
                             <div class="row">
-                                <h3 class="pack-hed">Fully packed, out of the box</h3>
-                                <div class="col-xl-3">
+                                <h3 class="pack-hed">Use celebrations to</h3>
+                                <div class="col-xl-4">
                                     <div class="color-main so">
                                        <div class="color-icon">
-                                         <i class="fa-solid fa-paperclip" style="color: #20b9c7;"></i>
-                                         <p>Attach any file you need, including app shortcuts</p>
+                                         <i class="fa-regular fa-file-pdf" style="color: #20b9c7;"></i></fa-solid>
+                                         <p>Attach any type of
+                                            media & files</p>
                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-3">
+                                <div class="col-xl-4">
                                     <div class="color-main so">
                                        <div class="color-icon">
-                                        <i class="fa-solid fa-file" style="color: #2998ff;"></i>
-                                         <p>Attach any file you need, including app shortcuts</p>
+                                        <i class="fa-solid fa-clock" style="color: #2998ff;"></i>
+                                         <p>Internal 
+                                            emergency contacts</p>
                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-3">
+                                <div class="col-xl-4">
                                     <div class="color-main so">
                                        <div class="color-icon">
-                                        <i class="fa-solid fa-arrows-rotate" style="color: #607af0;"></i>
-                                         <p>Attach any file you need, including app shortcuts</p>
+                                        <i class="fa-solid fa-bell" style="color: #607af0;"></i>
+                                         <p>Co-workers
+                                            contact information</p>
                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-3">
+                                <div class="col-xl-4">
                                     <div class="color-main so">
                                        <div class="color-icon">
-                                        <i class="fa-solid fa-magnifying-glass" style="color: #af52de;"> </i>
-                                         <p>Attach any file you need, including app shortcuts</p>
+                                        <i class="fa-regular fa-circle-check" style="color: #af52de;"> </i>
+                                         <p>Clients contact information</p>
                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-3">
+                                <div class="col-xl-4">
                                     <div class="color-main so">
                                        <div class="color-icon">
-                                        <i class="fa-solid fa-book-open" style="color: #f53689;"></i>
-                                         <p>Attach any file you need, including app shortcuts</p>
+                                        <i class="fa-regular fa-message" style="color: #af52de;"> </i>
+                                         <p>Clients contact information</p>
                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-3">
+                                <div class="col-xl-4">
                                     <div class="color-main so">
                                        <div class="color-icon">
-                                        <i class="fa-solid fa-mobile-screen-button" style="color: #ff6e42;"></i>
-                                         <p>Attach any file you need, including app shortcuts</p>
-                                       </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3">
-                                    <div class="color-main so">
-                                       <div class="color-icon">
-                                        <i class="fa-solid fa-mobile-screen-button" style="color: #ff6e42;"></i>
-                                         <p>Attach any file you need, including app shortcuts</p>
+                                        <i class="fa-solid fa-palette" style="color: #af52de;"> </i>
+                                         <p>Clients contact information</p>
                                        </div>
                                     </div>
                                 </div>

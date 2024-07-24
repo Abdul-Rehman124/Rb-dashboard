@@ -10,10 +10,13 @@
                     <div class="row justify-content-center">
                         <div class="col-xl-5">
                             <div class="video-sec">
-                                <video width="640" height="360" controls>
-                                    <source src="video.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
+                                <div  class="video-men">
+                                    <video width="640" height="360" controls>
+                                        <source src="video.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                
                                 <h3 class="num">Get started with Quick Tasks</h3>
                                 <p class="para">Plan, manage and track all your team's tasks in one place, whether you’re in the office or on-the-go.</p>
                                 <div class="anch">

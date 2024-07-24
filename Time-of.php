@@ -10,18 +10,16 @@
                     <div class="row justify-content-center">
                         <div class="col-xl-5">
                             <div class="video-sec">
-                                <div class="video-men">
-                                    <video  controls>
+                                <div class="vide">
+                                    <video controls>
                                         <source src="video.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
-                                
-                                <h3 class="num">Get Started with Events</h3>
-                                <p class="para">Create a beautiful agenda of all company events, make it simple for users to access 
-                                    event's details and mark their attendance, and bring people together effortlessly</p>
+                                <h3 class="num">Get started with Time off</h3>
+                                <p class="para">Manage your employee's paid and unpaid time off, respond to employee's requests in seconds, track the time off balance for each team member, and seamlessly sync it with your schedules and timesheets.</p>
                                 <div class="anch">
-                                    <a href="">Get Started</a>
+                                    <a href="">Go to Time off</a>
                                 </div>
                             </div>  
                         </div> 
@@ -32,33 +30,36 @@
                                 <div class="col-xl-4">
                                     <div class="color-main">
                                         <div class="color-img">
-                                        <img src="assets/images/detailed-events.svg" alt="">
+                                        <img src="assets/images/pto-activation-card1.webp" alt="">
                                         </div>
                                         <div class="con-col">
-                                        <span>Detailed events</span>
-                                        <p>Add a detailed description to any event, including location, media and a gorgeous event cove </p>
+                                        <span>Customizable policies</span>
+                                        <p>Create fully customizable time off policies and assign employees to the policies they need
+                                        </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-xl-4">
                                     <div class="color-main">
                                         <div class="color-img">
-                                        <img src="assets/images/attendance-tracking.svg" alt="">
+                                        <img src="assets/images/pto-activation-card2 (1).webp" alt="">
                                         </div>
                                         <div class="con-col">
-                                        <span>Attendance tracking</span>
-                                        <p>Allow users to register to an event and view who's attending from their colleagues </p>
+                                        <span>Balance and requests
+                                        </span>
+                                        <p>Set a personal balance for each employee and have it automatically updated when you approve requests
+                                        </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-xl-4">
                                     <div class="color-main">
                                         <div class="color-img">
-                                        <img src="assets/images/activation-page-third-card.svg" alt="">
+                                        <img src="assets/images/pto-activation-card3.webp" alt="">
                                         </div>
                                         <div class="con-col">
-                                        <span>Keep all files in one place</span>
-                                        <p>Fully customize your event's preferences with advanced options to suit any need </p>
+                                        <span>All-in-one makes it easier</span>
+                                        <p>Approved time off seamlessly integrate with your schedules and timesheets in Connecteam</p>
                                         </div>
                                     </div>
                                 </div>
@@ -66,62 +67,56 @@
                         </div>
                     </div>
                     <div class="row justify-content-center">
-                        <div class="col-xl-6">
+                        <div class="col-xl-5">
                             <div class="row">
-                                <h3 class="pack-hed">Fully packed, out of the box</h3>
-                                <div class="col-xl-3">
+                                <h3 class="pack-hed">Use time off to</h3>
+                                <div class="col-xl-4">
                                     <div class="color-main so">
                                        <div class="color-icon">
-                                         <i class="fa-solid fa-paperclip" style="color: #20b9c7;"></i>
-                                         <p>Attach any file you need, including app shortcuts</p>
+                                         <i class="fa-regular fa-file-pdf" style="color: #20b9c7;"></i></fa-solid>
+                                         <p>Celebrate birthdays</p>
                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-3">
+                                <div class="col-xl-4">
                                     <div class="color-main so">
                                        <div class="color-icon">
-                                        <i class="fa-solid fa-file" style="color: #2998ff;"></i>
-                                         <p>Attach any file you need, including app shortcuts</p>
+                                        <i class="fa-solid fa-clock" style="color: #2998ff;"></i>
+                                         <p>Appreciate good work</p>
                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-3">
+                                <div class="col-xl-4">
                                     <div class="color-main so">
                                        <div class="color-icon">
-                                        <i class="fa-solid fa-arrows-rotate" style="color: #607af0;"></i>
-                                         <p>Attach any file you need, including app shortcuts</p>
+                                        <i class="fa-solid fa-bell" style="color: #607af0;"></i>
+                                         <p>
+                                            Motivate team members</p>
                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-3">
+                                <div class="col-xl-4">
                                     <div class="color-main so">
                                        <div class="color-icon">
-                                        <i class="fa-solid fa-magnifying-glass" style="color: #af52de;"> </i>
-                                         <p>Attach any file you need, including app shortcuts</p>
+                                        <i class="fa-regular fa-circle-check" style="color: #af52de;"> </i>
+                                         <p>Enhance onboarding</p>
                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-3">
+                                <div class="col-xl-4">
                                     <div class="color-main so">
                                        <div class="color-icon">
-                                        <i class="fa-solid fa-book-open" style="color: #f53689;"></i>
-                                         <p>Attach any file you need, including app shortcuts</p>
+                                        <i class="fa-regular fa-message" style="color: #af52de;"> </i>
+                                         <p>Send a holiday gift</p>
                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-3">
+                                <div class="col-xl-4">
                                     <div class="color-main so">
                                        <div class="color-icon">
-                                        <i class="fa-solid fa-mobile-screen-button" style="color: #ff6e42;"></i>
-                                         <p>Attach any file you need, including app shortcuts</p>
-                                       </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3">
-                                    <div class="color-main so">
-                                       <div class="color-icon">
-                                        <i class="fa-solid fa-mobile-screen-button" style="color: #ff6e42;"></i>
-                                         <p>Attach any file you need, including app shortcuts</p>
+                                        <i class="fa-solid fa-palette" style="color: #af52de;"> </i>
+                                         <p>
+                                            Boost engagement</p>
                                        </div>
                                     </div>
                                 </div>

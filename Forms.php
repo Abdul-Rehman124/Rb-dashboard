@@ -10,10 +10,13 @@
                     <div class="row justify-content-center">
                         <div class="col-xl-5">
                             <div class="video-sec">
-                                <video width="640" height="360" controls>
-                                    <source src="video.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
+                                <div class="video-men">
+                                    <video width="640" height="360" controls>
+                                        <source src="video.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                
                                 <h3 class="num">Change the game with Forms</h3>
                                 <p class="para">From daily checklists and job reports, to expenses forms and incident reports, Connecteam Forms digitize any process and help take businesses’ efficiency light years ahead.</p>
                                 <div class="anch">

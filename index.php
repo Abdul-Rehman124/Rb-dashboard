@@ -20,7 +20,7 @@
                         <div class="col-xl-3">
                             <div class="links-rat">
                                 <div class="link-icon">
-                                    <i class="fa-solid fa-crown"></i>
+                                    <i class="fa-solid fa-crown" style="color: #ff9500;"></i>
                                 <h6>Add admin</h6>
                                 </div>
                             </div>
@@ -28,7 +28,7 @@
                         <div class="col-xl-3">
                             <div class="links-rat">
                                 <div class="link-icon">
-                                    <i class="fa-regular fa-square-check"></i>
+                                    <i class="fa-regular fa-square-check" style="color: #af52de;"></i>
                                 <h6>Add a Task</h6>
                                 </div>
                             </div>
@@ -36,7 +36,7 @@
                         <div class="col-xl-3">
                             <div class="links-rat">
                                 <div class="link-icon">
-                                    <i class="fa-regular fa-envelope"></i>
+                                    <i class="fa-regular fa-envelope" style="color: #2998ff;"></i>
                                 <h6>Send an upadate</h6>
                                 </div>
                             </div>
@@ -65,10 +65,61 @@
                 <div class="content-sec">
                     <div class="div-con-1">
                         <div class="left-con">
-                            <div class="main">
-                                <h3>Engagement</h3>
-                                <div class="con-button">
-                                    <span>All users group</span>
+                            <div class="row">
+                                <div class="col-xl-6">
+                                    <div class="main-end">
+                                        <div class="hed">
+                                            <h3>Engagement</h3>
+                                        </div>
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                All User Group
+                                            </button>
+                                                <div class="dropdown-menu">
+                                                    <div class="input-type">
+                                                       <input type="text" placeholder="Search"><i class="fa-solid fa-magnifying-glass"></i>
+                                                    </div>
+                                                    <div class="input-con">
+                                                       <h6>All User Group</h6>
+                                                       <h6>All Admin Group</h6>
+                                                       <h6>Team 1</h6>
+                                                       <h6>Team 2</h6>
+                                                       <h6>Team 3</h6>
+                                                       <h6>Department 1</h6>
+                                                       <h6>Department 2</h6>
+                                                       <h6>Department 3</h6>
+                                                       <h6>Branch 1</h6>
+                                                       <h6>Branch 2</h6>
+                                                       <h6>Branch 3</h6>
+                                                    </div>
+                                                 </div>
+                                            </ul>
+                                        </div>   
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="main-1">
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Day
+                                            </button>
+                                                <div class="dropdown-menu">
+                                                    <div class="input-con day">
+                                                       <h6>Day 1</h6>
+                                                       <h6>Week</h6>
+                                                       <h6>Month</h6>
+                                                    </div>
+                                                 </div>
+                                            </ul>
+                                        </div>   
+                                        <div class="con-button">
+                                            <input type="Date" id="Date" required="">
+                                        </div>
+                                        <div class="con-button">
+                                            <span class="bor"><i class="fa-solid fa-file-export" style="color: #2998ff;"></i></span>
+                                            
+                                        </div>              
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -115,7 +166,7 @@
               </div>
            </div>
            <div class="col-xl-3">
-            <div class="con-div ">
+            <div class="con-div mr">
                 <div class="icon-arrow hv">
                     <h3>Alerts</h3>
                    <img src="assets/images/generic-placeholder.svg">
@@ -150,17 +201,17 @@
                           <div class="progress-bar-container"><div class="progress-bar-fill" style="width: 0%;"></div></div>
                        </div>
                        <div class="stock-award">
-                        <img src="assets/images/punchIns_1.png">
+                        <img src="assets/images/shiftsUpdates_1.png">
                         <div class="next-milestone-data"><div class="next-milestone-text text-body">5 published shifts</div><div class="progress-bar-container"><div class="progress-bar-fill" style="width: 0%;"></div></div></div>
                         <div class="progress-bar-container"><div class="progress-bar-fill" style="width: 0%;"></div></div>
                      </div>
                      <div class="stock-award">
-                        <img src="assets/images/punchIns_1.png">
+                        <img src="assets/images/chatMessages_1.png">
                         <div class="next-milestone-data"><div class="next-milestone-text text-body">5 chat messages sent</div><div class="progress-bar-container"><div class="progress-bar-fill" style="width: 0%;"></div></div></div>
                         <div class="progress-bar-container"><div class="progress-bar-fill" style="width: 0%;"></div></div>
                      </div>
                      <div class="stock-award">
-                        <img src="assets/images/punchIns_1.png">
+                        <img src="assets/images/updateInteractions_1.png">
                         <div class="next-milestone-data"><div class="next-milestone-text text-body">5 clock-ins made</div><div class="progress-bar-container"><div class="progress-bar-fill" style="width: 0%;"></div></div></div>
                         <div class="progress-bar-container"><div class="progress-bar-fill" style="width: 0%;"></div></div>
                      </div>
