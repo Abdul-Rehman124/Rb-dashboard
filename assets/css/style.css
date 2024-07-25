@@ -235,7 +235,7 @@ section.main-sec .container-fluid {
 .content-sec {
     background: #fff;
     padding: 20px;
-    border-radius: 15px;
+    border-radius: 0 0 0 15px;
 }
 
 .links-rat {
@@ -614,6 +614,8 @@ span.bor i {
 
 .span-con {
     display: flex;
+    align-items: center;
+    gap: 10px;
 }
 h3.gain {
     font-size: 29px;
@@ -697,6 +699,8 @@ button.btn.btn-secondary.dropdown-toggle {
     color: #00000094;
     font-size: 14px;
     border-radius: 32px;
+    border: 1px solid;
+    margin-right: 30px;
 }
 .logo-div img {
     width: 58px;
@@ -905,4 +909,259 @@ a.block-anc {
 
 .img-area img {
     margin-bottom: 25px;
+}
+.menu-img img {
+    width: 21%;
+}
+.span-div {
+    display: flex;
+    gap: 26px;
+    align-items: center;
+    margin-right: 52px;
+}
+.span-div h6 {
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+span.span-2 {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 7px 10px;
+}
+.label-btn a {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    border: 1px solid #0000004f;
+    padding: 10px 21px;
+    border-radius: 22px;
+}
+
+
+
+.label-btn a h6 {
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.main-trogle {
+    width: 184px;
+    padding: 4px 11px;
+    background: #f0f0f0;
+    border-radius: 202px;
+    border: 0;
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    border: 0;
+    background: #fff;
+    outline: 0;
+    border-radius: 30px;
+}
+.troggle-area {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    border-right: 1px solid;
+    width: 290px;
+    height: 33px;
+}
+label.btn a img {
+    margin: 5px;
+}
+.main-trogle-area {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+.drop-menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 20px;
+    border-right: 1px solid;
+    height: 33px;
+}
+.wifi-btn {
+    border: 1px solid;
+    padding: 5px 9px;
+    border-radius: 60px;
+    margin-left: 13px;
+}
+.serch-area {
+    width: 230px;
+}
+.main-search {
+    display: flex;
+    align-items: center;
+    gap: 43px;
+    justify-content: end;
+}
+.inp-bor {
+    width: 33%;
+    border-right: 1px solid;
+}
+.fix {
+    width: 164px;
+    height: 40px;
+}
+
+.export-th a {
+    border: 1px solid;
+    border-radius: 24px;
+    padding: 10px 21px;
+    display: table;
+}
+.mega-trogle {
+    border-bottom: 1px solid #00000059;
+    padding-bottom: 33px;
+}
+.check-div input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+}
+
+.check-div {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 17px;
+}
+
+.button-con {
+    background: #f0f0f0;
+    border-radius: 14px;
+    padding: 3px;
+    margin-bottom: 20px;
+}
+.img-butt img {
+    width: 141%;
+}
+.circle {
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 99px;
+}
+
+.img-title {
+    display: inline-flex;
+    gap: 13px;
+}
+.smart-table-span {
+    line-height: 60px;
+    font-size: 15px;
+}
+.smart-table {
+    display: flex;
+    gap: 69px;
+    justify-content: end;
+}
+button.btn.btn-secondary.dropdown-toggle.show img {
+    width: 15px;
+}
+
+button.btn.btn-secondary.dropdown-toggle.show {
+    border: none;
+    line-height: 50px;
+}
+
+button.btn.btn-secondary.dropdown-toggle {
+    border: 0;
+    line-height: 50px;
+}
+
+button.btn.btn-secondary.dropdown-toggle img {
+    width: 20px;
+}
+.check-div.pro {
+    background: #fff;
+    justify-content: space-between;
+    border-radius: 8px;
+    padding: 15px;
+    gap: 43px;
+}
+.num-area {
+    /* background: #fff; */
+    /* margin: 16px; */
+    border-radius: 7px;
+    border-left: 5px solid rgb(152, 61, 115);
+    margin: 0 10px;
+}
+.block {
+    background: #fff;
+    padding: 13px;
+    margin: 9px 9px 2px 9px;
+}
+.draft-div span {
+    color: #eb6800;
+    background: #eb680024;
+    padding: 6px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+.con-div-men {
+    display: flex;
+    gap: 22px;
+}
+.main-mess {
+    display: flex;
+    gap: 101px;
+    margin: 4px;
+}
+
+.open-but a {
+    background: rgb(242, 242, 242);
+    color: #000;
+    padding: 10px 22px;
+    border-radius: 33px;
+    font-size: 15px;
+}
+.but a {
+    background: rgb(109, 212, 0);
+    color: #fff;
+    font-weight: 300;
+    font-size: 15px;
+    padding: 4px;
+    border-radius: 3px;
+}
+.mb-3 {
+    margin-bottom: 0 !important;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background: #fff;
+    width: 410px;
+    color: #2998ff;
+    height: 50px;
+    opacity: 100;
+    font-weight: 400;
+}
+
+
+.nav-pills .nav-link {
+    width: 416px;
+    height: 50px;
+    font-size: 18px;
+    color: #000;
+    opacity: .5;
+}
+.date span {
+    font-size: 15px;
+}
+.div-rae {
+    display: flex;
+    gap: 8px;
+}
+
+.plus-icon {
+    background: #2998ff;
+    border-radius: 22px;
+    color: #fff;
+    width: 22px;
+    text-align: center;
+}
+
+.div-rae span {
+    color: #2998FC;
+    font-size: 16px;
 }

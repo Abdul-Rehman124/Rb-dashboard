@@ -19,4 +19,3 @@ $('.chevron').click(function() {
     }
 });
 }); 
-
