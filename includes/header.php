@@ -3,7 +3,9 @@
         <div class="row align-items-center">
             <div class="col-md-2">
                 <div class="main-logo">
-                    <h1>Logo Here</h1>
+                    <a href="index.php">
+                        <img src="assets/images/rb-logo.png" alt="">
+                    </a>
                 </div>
             </div>
             <div class="col-md-2 p-0">
