@@ -18,4 +18,5 @@ $('.chevron').click(function() {
         $('.d-block').removeClass('d-block').addClass('d-none');
     }
 });
-}); 
+});
+

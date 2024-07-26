@@ -17,9 +17,33 @@
                     <p class="mb-0">Free trial endsin 7 days</p>
                     <a href="" class="upgrade-button">Upgrade</a>
                 </div>
-                <div class="header-item">
-                    <a href="" class="chat-link"><i class="fa-solid fa-headset"></i> Talk to an expert</a>
+                <div class="dropdown-center">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                       Talk to an expert
+                    </button>
+                    <ul class="dropdown-menu hed">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="drop-down-im">
+                                    <img src="assets/images/drop-img.svg" alt="">
+                                </div>
+                                <div class="drop-down-con">
+                                    <h3>Book a meeting with us</h3>
+                                    <p>Take the first step towards achieving your goals
+                                        with Connecteam. Book an online meeting with
+                                        your account executive to explore how we can
+                                        help you overcome challenges and drive success.</p>
+                                </div>
+                                <div class="anch so">
+                                    <a href="">pick a Time Slot</a>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
                 </div>
+                <!-- <div class="header-item">
+                    <a href="" class="chat-link"><i class="fa-solid fa-headset"></i> Talk to an expert</a>
+                </div> -->
                 <div class="header-item">
                     <div class="dropdown">
                         <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown"
@@ -54,6 +78,14 @@
                         <img src="assets/images/profile.jpg" alt="">
 
                     </div>
+                    <div class="copper">
+                        <a href="">
+                        Ac    
+                        </a>
+                        <div class="copp">
+                          <img src="assets/images/owner-icon (1).webp" alt="">
+                        </div>
+                    </div>
                     <div class="dropdown">
                         <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
@@ -76,7 +108,7 @@
         <div class="item first-item">
             <ul>
                 <li><a href="javascript:;">
-                        <div class="icon icon-1 chevron"><i class="chevron-icon fa-solid fa-chevron-right "></i></div>
+                        <div class="icon icon-1 chevron " id="toggleContentSec"><i class="chevron-icon fa-solid fa-chevron-right "></i></div>
                     </a> </li>
                 <li><a href="index.php">
                         <div class="icon"><i class="fa-solid fa-table-cells-large"></i></div> <span
@@ -89,10 +121,10 @@
         </div>
         <div class="item second-item">
             <ul>
-                <li><a href="">
+                <li><a href="User.php">
                         <div class="icon"><i class="fa-solid fa-user"></i></div> <span class="d-none">Users</span>
                     </a> </li>
-                <li><a href="">
+                <li><a href="Smart-Group.php">
                         <div class="icon"><i class="fa-solid fa-user-group"></i></div> <span class="d-none">Smart
                             Groups</span>
                     </a> </li>

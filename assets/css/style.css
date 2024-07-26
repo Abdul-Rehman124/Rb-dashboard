@@ -21,7 +21,12 @@ h3{
 }
 a {text-decoration: none;}
 ul {padding-left: 0;list-style: none;}
-
+ul.dropdown-menu.hed.show {
+    width: 155%;
+    height: 286px;
+    padding: 20px;
+    box-shadow: 0px 0px 4px #00000057;
+}
 .top-header {
     position: fixed;
     top: 0;
@@ -31,7 +36,13 @@ ul {padding-left: 0;list-style: none;}
     z-index: 2;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
+.collapsed .links-area {
+    display: none; 
+}
 
+.chevron {
+    cursor: pointer;
+}
 .container-fluid content-sec {
     padding-left: 270px;
 }
@@ -45,18 +56,18 @@ ul {padding-left: 0;list-style: none;}
 
 .header-item p {
     color: var(--silver);
-    font-size: 17px;
+    font-size: 14px;
 }
 
 .header-item a.chat-link {
-    font-size: 19px;
+    font-size: 14px;
     color: var(--blue);
 }
 
 .header-item .dropdown-toggle,
 .header-item a.btn {
     padding: 0 5px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .header-item .dropdown-toggle {color: var(--blue);}
@@ -224,6 +235,24 @@ i.fa-solid.fa-user-group {padding: 0;}
     font-size: 15px;
     color: #000000a1;
 }
+.drop-down-con {
+    text-align: center;
+}
+
+.drop-down-im img {
+    width: 143px;
+}
+
+.drop-down-im {
+    text-align: center;
+}
+
+.drop-down-con p {
+    font-size: 13px;
+}
+.anch.so {
+    margin: 0;
+}
 /* First-Sec */
 section.main-sec {
     padding-top: 110px;
@@ -235,7 +264,8 @@ section.main-sec .container-fluid {
 .content-sec {
     background: #fff;
     padding: 20px;
-    border-radius: 0 0 0 15px;
+    border-radius: 0 0 15px;
+    width: 99%;
 }
 
 .links-rat {
@@ -283,10 +313,6 @@ section.main-sec .container-fluid {
 .about-sec .container-fluid {
     padding-left: 250px;
 }
-/* .main {
-    display: flex;
-    gap: 19px;
-} */
 .main-end {
     display: flex;
     gap: 15px;
@@ -350,7 +376,7 @@ svg.highcharts-root {
 }
 .hv h6 {
     font-size: 23px;
-    color: #2998ff;
+    color: var(--blue);
 }
 
 .hv p {
@@ -404,7 +430,6 @@ svg.highcharts-root {
     font-size: 25px;
 }
 /* Activity-Page */
-
 .label-date {
     border-bottom: 1px solid #00000038;
     padding-bottom: 26px;
@@ -546,15 +571,12 @@ h3.pack-hed {
     box-shadow: 0px 0px 16px rgba(0,0,0,0.04),0px 8px 32px rgba(0,0,0,0.06);
     margin-bottom: 23px;
 }
-
 .color-icon i {
     font-size: 23px;
 }
-
 .color-icon {
     text-align: center;
 }
-
 .color-icon p {
     font-size: 12px;
     line-height: 13px;
@@ -563,7 +585,6 @@ h3.pack-hed {
 span.bor {
     padding: 12px;
 }
-
 span.bor i {
     font-size: 15px;
 }
@@ -605,13 +626,9 @@ span.bor i {
     border-radius: 19px;
     font-size: 15px;
 }
-
-
-
 .span-2 {
     margin: 0 -17px;
 }
-
 .span-con {
     display: flex;
     align-items: center;
@@ -627,7 +644,6 @@ span.line {
     display: block;
     margin: auto 10px;
 }
-
 .doc {
     display: flex;
     margin: auto;
@@ -667,19 +683,15 @@ span.line {
 input[type="text"] {
     border: 0;
 }
-
 .input-type {
     border: 1px solid #00000063;
     padding: 4px;
     border-radius: 9px;
     width: 214px;
 }
-
 input[type="text"]:focus {
     outline: none;
 }
-
-
 .input-con h6 {
     margin-bottom: 23px;
 }
@@ -691,7 +703,10 @@ input[type="text"]:focus {
     padding: 17px 10px;
 }
 .dropdown-menu.show {
-    padding: 7px;
+    padding: 12px;
+    /* width: 232px; */
+    border-radius: 9px;
+    box-shadow: 0px 0px 31px #00000021;
 }
 button.btn.btn-secondary.dropdown-toggle {
     background: transparent;
@@ -699,8 +714,7 @@ button.btn.btn-secondary.dropdown-toggle {
     color: #00000094;
     font-size: 14px;
     border-radius: 32px;
-    border: 1px solid;
-    margin-right: 30px;
+    border: 1px solid #00000038;
 }
 .logo-div img {
     width: 58px;
@@ -720,7 +734,6 @@ button.btn.btn-secondary.dropdown-toggle {
     justify-content: end;
     align-items: center;
 }
-
 .mob-prv-div a span {
     background: rgb(255, 138, 101);
     color: #fff;
@@ -733,7 +746,6 @@ button.btn.btn-secondary.dropdown-toggle {
     padding: 8px 29px;
     border-radius: 31px;
 }
-
 .mob-area a i {
     margin-right: 11px;
 }
@@ -870,18 +882,21 @@ input[type="text-1"]:focus {
     border-radius: 53px;
     background: rgb(255, 138, 101);
     color: #fff;
-    padding: 9px 8px;
+    padding: 4px 5px;
     font-size: 13px;
+    display: inline-block;
+    margin-right: 10px;
 }
 
 .copper {
     position: relative;
+    margin-left: 30px;
 }
 
 .copp {
     position: absolute;
-    top: 12px;
-    left: 15px;
+    top: 9px;
+    left: 10px;
 }
 .footer-block a {
     border: 1px solid #000;
@@ -934,13 +949,9 @@ span.span-2 {
     display: flex;
     gap: 7px;
     align-items: center;
-    border: 1px solid #0000004f;
     padding: 10px 21px;
     border-radius: 22px;
 }
-
-
-
 .label-btn a h6 {
     font-weight: 300;
     margin-bottom: 0;
@@ -1060,17 +1071,6 @@ label.btn a img {
 button.btn.btn-secondary.dropdown-toggle.show img {
     width: 15px;
 }
-
-button.btn.btn-secondary.dropdown-toggle.show {
-    border: none;
-    line-height: 50px;
-}
-
-button.btn.btn-secondary.dropdown-toggle {
-    border: 0;
-    line-height: 50px;
-}
-
 button.btn.btn-secondary.dropdown-toggle img {
     width: 20px;
 }
@@ -1082,8 +1082,6 @@ button.btn.btn-secondary.dropdown-toggle img {
     gap: 43px;
 }
 .num-area {
-    /* background: #fff; */
-    /* margin: 16px; */
     border-radius: 7px;
     border-left: 5px solid rgb(152, 61, 115);
     margin: 0 10px;
@@ -1130,7 +1128,7 @@ button.btn.btn-secondary.dropdown-toggle img {
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     background: #fff;
-    width: 410px;
+    width: 506px;
     color: #2998ff;
     height: 50px;
     opacity: 100;
@@ -1139,7 +1137,7 @@ button.btn.btn-secondary.dropdown-toggle img {
 
 
 .nav-pills .nav-link {
-    width: 416px;
+    width: 567px;
     height: 50px;
     font-size: 18px;
     color: #000;
@@ -1164,4 +1162,179 @@ button.btn.btn-secondary.dropdown-toggle img {
 .div-rae span {
     color: #2998FC;
     font-size: 16px;
+}
+.logo-div.user i {
+    font-size: 23px;
+}
+
+.user {
+    gap: 30px;
+    color: var(--blue);
+}
+.logo-div.user span {
+    color: #000000a6;
+}
+.label-btn {
+    display: table;
+}
+.drop-inner {
+    display: flex;
+    gap: 221px;
+    border-bottom: 1px solid #00000024;
+}
+
+.ic-anc-main {
+    display: flex;
+    gap: 20px;
+}
+ul.dropdown-menu.filter.show {
+    transform: translate(-2px, 42px) !important;
+}
+.icons-dis i {
+    border: 1px solid #0000006b;
+    padding: 4px;
+    border-radius: 16px;
+    font-size: 11px;
+}
+.swih {
+    border: 1px solid #000;
+    padding: 3px;
+    border-radius: 41px;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+.input-text.pol.form {
+    display: table;
+    border-radius: 8px;
+}
+.drop-down-men {
+    display: flex;
+}
+.drop-down-worth {
+    display: flex;
+    gap: 21px;
+}
+.content-sec.dro {
+    background: #f6f6f6;
+    border-bottom: 1px solid #ddd;
+    margin-top: 10px;
+}
+thead.thead-area {
+    background: #f8f8f8;
+    border-bottom: 1px solid #0000001f;
+}
+
+ul.dropdown-menu.show:focus {
+    background: unset;
+}
+
+ul.dropdown-menu.show li button:focus {
+    background: unset;
+    color: #000;
+}
+
+button.dropdown-item input[type="checkbox"]{
+    margin-right: 19px;
+}
+table.thead-area {
+    background: #f8f8f8;
+    margin-top: 20px;
+}
+
+table.thead-area thead {
+    border-bottom: 1px solid #00000038;
+}
+table.thead-area thead tr th {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000ab;
+}
+.dropdown.user-btn button.dropdown-toggle {
+    color: #2998ff;
+}
+table.thead-area thead tr th input[type="checkbox"] {
+    margin-left: 14px;
+}
+.team button.btn.btn-secondary.dropdown-toggle {
+    border: none;
+    background: #f8f8f8;
+    border-radius: 0;
+    box-shadow: 0px 0px 5px #7e7b7b2e;
+    padding: 15px 23px;
+    font-size: 19px;
+}
+tbody.body-area tr th {
+    font-size: 014px;
+    font-weight: 400;
+    color: #000000bd;
+    padding: 10px 0;
+}
+table.thead-area tbody tr th input[type="checkbox"]{
+    margin-left: 10px;
+}
+tbody.body-area {
+    background: #fff;
+}
+
+tbody.body-area:hover {
+    cursor: pointer;
+    background: #f8f8f8;
+}
+.inner-tab {
+    margin: 0 auto;
+    width: 480px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.table-img img {
+    width: 310px;
+}
+
+.tab-cont h3 {
+    font-size: 29px;
+}
+
+.tab-cont p {
+    font-size: 16px;
+    width: 410px;
+    margin: 0 auto;
+}
+.anc-tab a {
+    background: #2998ff;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 20px;
+    display: inline-table;
+    border-radius: 51px;
+}
+.anc-tab a i {
+    border: 1px solid #fff;
+    margin-right: 7px;
+    font-size: 11px;
+    padding: 3px;
+    border-radius: 30px;
+}
+.dropdown.use-bt button.btn.btn-secondary.dropdown-toggle {
+    background: #2998ff;
+    color: #fff;
+}
+.dropdown.user-btn {
+    border-left: 1px solid #00000017;
+    padding: 0 10px;
+}
+.dropdown.use-bt{
+    border-left: 1px solid #00000017;
+    padding: 0 10px; 
+}
+.form-check.form-switch {
+    padding: 0;
+}
+
+.form-switch .form-check-input:checked {
+    padding: 15px 21px;
+    margin: 0;
+}
+.form-switch .form-check-input {
+    padding: 14px 0 14px 39px;
 }

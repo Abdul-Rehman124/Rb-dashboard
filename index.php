@@ -5,11 +5,11 @@
    <div class="container-fluid">
       <div class="row">
            <div class="col-xl-9">
-                <div class="content-sec">
+                <div class="content-sec" id="contentSec">
                   <h3>Quick Actions</h3>
                     <div class="links-area">
                     <div class="row">
-                        <div class="col-xl-3">
+                        <div class="col-xl-4">
                             <div class="links-rat">
                                 <div class="link-icon">
                                     <i class="fa-solid fa-user-plus"></i>
@@ -17,7 +17,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3">
+                        <div class="col-xl-4">
                             <div class="links-rat">
                                 <div class="link-icon">
                                     <i class="fa-solid fa-crown" style="color: #ff9500;"></i>
@@ -25,19 +25,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3">
+                        <div class="col-xl-4">
                             <div class="links-rat">
                                 <div class="link-icon">
                                     <i class="fa-regular fa-square-check" style="color: #af52de;"></i>
                                 <h6>Add a Task</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3">
-                            <div class="links-rat">
-                                <div class="link-icon">
-                                    <i class="fa-regular fa-envelope" style="color: #2998ff;"></i>
-                                <h6>Send an upadate</h6>
                                 </div>
                             </div>
                         </div>
