@@ -1337,4 +1337,31 @@ tbody.body-area:hover {
 }
 .form-switch .form-check-input {
     padding: 14px 0 14px 39px;
+} 
+.border-yellow{
+    /* background-color:rgb(176, 113, 46) ; */
+    border-left: 5px solid rgb(176, 113, 46);
+}
+.border-rigth{
+    background-color: var(--blue);
+}
+.border-blue{
+   background-color: #000;
+}
+.accordion-item:not(:first-of-type) {
+    border: 0;
+    border:1px solid #00000026
+    
+}
+
+.accordion-item:first-of-type {
+    border: 0;
+    border: 1px solid #00000026;
+    border-radius: 4px;
+}
+.accordion-button:focus {
+    box-shadow: unset;
+}
+.accordion-button:not(.collapsed) {
+    background: unset;
 }
