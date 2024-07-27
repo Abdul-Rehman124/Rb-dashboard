@@ -129,13 +129,14 @@
                 <li><a href="Smart-Group.php">
                         <div class="icon"><i class="fa-solid fa-user-group"></i></div> <span class="d-none">Smart
                             Groups</span>
-                    </a> </li>
+                    </a> 
+                </li>
             </ul>
         </div>
         <div class="item third-item">
             <h6 class="d-none">Communications</h6>
             <ul>
-                <li><a href="">
+                <li><a href="Chats.php">
                         <div class="icon"><i class="fa-regular fa-comments"></i></div> <span class="d-none">Chat</span>
                         <div class="three-dots">...</div>
                     </a> </li>

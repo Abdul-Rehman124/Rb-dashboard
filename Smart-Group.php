@@ -43,12 +43,46 @@
                     <div class="accordion-item mb-4">
                       <h2 class="accordion-header">
                         <button class="accordion-button border-yellow" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Segment name <img src="assets/images/cicle-plus.webp" alt="">
+                            Segment name 
+                            <div class="accordion-main-img">
+                                <div class="accordion-img">
+                                    <img src="assets/images/cicle-plus.webp" alt="">
+                                </div>
+                                <div class="accordion-img-2">
+                                    <img src="assets/images/drag-and-drop-icon.webp" alt="">
+                                </div>   
+                            </div>
+                            
                         </button>
                       </h2>
                       <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                           <div class="accordion-table">
+                               <table>
+                                <thead>
+                                    <tr>
+                                        <th style="width: 37px;">
+                                            <input type="checkbox" data-sharkid="__2">
+                                        </th>
+                                        <th style="width: 222px;">
+                                            Group name
+                                        </th>
+                                        <th style="width: 272px;">
+                                            Connected
+                                        </th>
+                                        <th style="width: 272px;">
+                                            Created by
+                                        </th>
+                                        <th style="width: 272px;">
+                                            Assignments
+                                        </th>
+                                        <th style="width: 272px;"> 
+                                            Administered by
+                                        </th>
+                                    </tr>
+                                   </thead>                                
+                               </table>
+                           </div>
                         </div>
                       </div>
                     </div>
