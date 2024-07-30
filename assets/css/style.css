@@ -1373,3 +1373,7 @@ tbody.body-area:hover {
 button.accordion-button.border-yellow {
     position: relative;
 }
+.dropdown a img {
+    width: 19%;
+    margin-right: 6px;
+}
