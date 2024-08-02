@@ -23,34 +23,40 @@
                                             <div class="row">
                                                 <div class="col-xl-12">
                                                     <div class="row">
-                                                        <div class="col-xl-4">
-                                                            <div class="chats-area">
-                                                                <div class="chats-anch">
-                                                                    <div class="dropdown-center">
-                                                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                            Add New
-                                                                        </button>
-                                                                        <ul class="dropdown-menu">
-                                                                            <li><a class="dropdown-item" href="#"><i class="fa-regular fa-user"></i>New Chat</a></li>
-                                                                            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-users"></i>New Team</a></li>
-                                                                            <li><a class="dropdown-item" href="#">New Channel</a></li>
-                                                                        </ul>
+                                                        <div class="col-xl-3">
+                                                            <div class="main-chat-area">
+                                                                <div class="chats-area">
+                                                                    <div class="chats-anch">
+                                                                        <div class="dropdown-center">
+                                                                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                                Add New
+                                                                            </button>
+                                                                            <ul class="dropdown-menu">
+                                                                                <li><a class="dropdown-item" href="#"><i class="fa-regular fa-user"></i>New Chat</a></li>
+                                                                                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-users"></i>New Team</a></li>
+                                                                                <li><a class="dropdown-item" href="#">New Channel</a></li>
+                                                                            </ul>
+                                                                        </div>
                                                                     </div>
+                                                                    <div class="main-side">
+                                                                        <div class="dot-des" style="color: #2998ff;">
+                                                                            ....
+                                                                        </div>
+                                                                        <div class="icon-btn">
+                                                                            <i class="fa-solid fa-gear" style="color: #2998ff;"></i>
+                                                                        </div>
+                                                                        <div class="icon-btn">
+                                                                            <i class="fa-solid fa-graduation-cap" style="color: #20b9c7;"></i>
+                                                                            0/9
+                                                                        </div>
+                                                                    </div>
+                                                                    
                                                                 </div>
-                                                                <div class="main-side">
-                                                                    <div class="dot-des">
-                                                                        ....
-                                                                    </div>
-                                                                    <div class="icon-btn">
-                                                                        <i class="fa-solid fa-gear"></i>
-                                                                    </div>
-                                                                    <div class="icon-btn">
-                                                                        <i class="fa-solid fa-graduation-cap"></i>
-                                                                        0/9
-                                                                    </div>
-                                                                </div>
-                                                                
+                                                                <div class="texy-area">
+                                                                    <input type="text" placeholder="Search">
+                                                                 </div>
                                                             </div>
+                                                           
                                                         </div>
                                                     </div>
                                                 </div>
