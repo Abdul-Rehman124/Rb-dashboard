@@ -764,12 +764,13 @@ section.about-sec-con{
     padding-top: 20px;
 }
 button#home-tab {
-    width: 735px;
+    width: 725px;
     height: 60px;
 }
 button#profile-tab {
-    width: 850px;
+    width: 853px;
     height: 60px;
+    border: 0;
 }
 .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
     border-color: none;
@@ -1376,4 +1377,36 @@ button.accordion-button.border-yellow {
 .dropdown a img {
     width: 19%;
     margin-right: 6px;
+}
+
+.color {
+    height: 550px;
+}
+button#home-tab img {
+    width: 34px;
+    padding-right: 5px;
+}
+button#profile-tab img{
+    width: 25px;
+    padding-left: 5px
+}
+.content-sec-inner {
+    border: 1px solid #0000002b;
+    padding: 20px;
+    border-radius: 20px;
+}
+.chats-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+}
+
+.main-side {
+    display: flex;
+    gap: 40px;
+}
+.dot-des {
+    border: 1px solid #0000002e;
+    border-radius: 40px;
+    padding: 3px 8px 8px 10px;
 }

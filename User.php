@@ -47,7 +47,7 @@
                         <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">ARCHIVED(0)</button>
                         </li>
                     </ul>
-                    <div class="content-sec">
+                    <div class="content-sec color">
                         <div class="tab-content" id="pills-tabContent">
                             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
                                 <div class="row">
@@ -142,7 +142,7 @@
                                                     <th style="width: 10%;">
                                                         <div class="dropdown team">
                                                             <button class="btn btn-secondary dropdown-toggle show" type="button" data-bs-toggle="dropdown" aria-expanded="true">
-                                                                <img src="assets/images/ic_columns.webp" alt="">
+                                                                <img src="assets/images/add-managers (1).gift" alt="">
                                                             </button>
                                                             <ul class="dropdown-menu " data-popper-placement="top-end" style="position: absolute; inset: auto 0px 0px auto; margin: 0px; transform: translate(0px, -62px);">
                                                             <li><button class="dropdown-item" type="button"><input type="checkbox">First Name</button></li>
@@ -444,7 +444,7 @@
                                                      <th style="width: 12%;padding-left: 73px;">
                                                          First name
                                                          </th>
-                                                     <th style="width: 4%;">
+                                                     <th style="width: 6%;">
                                                      Last name
                                                      </th>
                                                      <th style="width: 14%;">
@@ -459,11 +459,17 @@
                                                      <th style="width: 11%;">
                                                          Admin tab  
                                                      </th>
-                                                     <th style="width:12%;">
+                                                     <th style="width:8%;">
                                                          Accepted 
                                                      </th>
-                                                     <th style="width: 26%;">
+                                                     <th style="width: 10%;">
                                                          Last login
+                                                     </th>
+                                                     <th style="width: 10%;">
+                                                         Archived at
+                                                     </th>
+                                                     <th style="width: 26%;">
+                                                         Archived By
                                                      </th>
                                                      <th style="width: 10%;">
                                                          <div class="dropdown team">
@@ -484,70 +490,7 @@
                                                      </th>
                                                  </tr> 
                                              </thead>
-                                             <tbody class="body-area">
-                                                 <tr>
-                                                     <th style="width: 8%;">
-                                                         <div class="copper">
-                                                             <a href="">
-                                                             Ac    
-                                                             </a>
-                                                             <div class="copp">
-                                                             <img src="assets/images/owner-icon (1).webp" alt="">
-                                                             </div>
-                                                             Andy
-                                                         </div>
-                                                     
-                                                     </th>
-                                                         <th style="width: 8%;">
-                                                             Copper
-                                                         </th>
-                                                         <th style="width: 8%;"> 
-                                                             <div class="dropdown">
-                                                                 <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                   <img src="assets/images/gray_crown.webp" alt="">owner
-                                                                 </button>
-                                                                 <ul class="dropdown-menu">
-                                                                   <li><a class="dropdown-item" href="#"><img src="assets/images/gray_crown.webp" alt="">owner</a></li>
-                                                                   <li><a class="dropdown-item" href="#"><img src="assets/images/gray_crown.webp" alt="">Admin</a></li>
-                                                                 </ul>
-                                                               </div>
-                                                         </th>
-                                                         <th style="width: 8%; color: #1c1a1a4f;">
-                                                             All groups
-                                                         </th>
-                                                         <th style="width: 11%; color: #1c1a1a4f;">
-                                                             All features
-                                                         </th>
-                                                         <th style="width: 8%;">
-                                                             <div class="form-check form-switch">
-                                                                 <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
-                                                             </div>
-                                                         </th>
-                                                         <th style="width: 8%; color: #57cba4; font-size: 20px;">
-                                                             <i class="fa-solid fa-check"></i>
-                                                         </th>
-                                                         <th style="width: 8%;">
-                                                         07/12/2024
-                                                         </th>
-                                                     </th>
-                                                 </tr>
-                                             </tbody>
                                         </table> 
-                                        <div class="inner-tab">
-                                         <div class="table-img">
-                                             <img src="assets/images/add-managers.webp" alt="">
-                                         </div>
-                                         <div class="tab-cont">
-                                             <h3>Get your team on board! </h3>
-                                             <p class="mb-4">Take the first step of having everyone on the same page
-                                                 by inviting your first team members to join you.</p>
-                                         </div> 
-                                         <div class="anc-tab">
-                                             <a href="">
-                                                 <i class="fa-solid fa-plus"></i>Add admin
-                                             </a>
-                                         </div>
-                                     </div>
                                     </div>
                                  </div>
                             </div>
